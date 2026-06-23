@@ -1,0 +1,14 @@
+# Désactiver les dossiers de données (car trop lourds)
+/content/
+/temp_data/
+
+# Ne pas uploader tes checkpoints de modèles (.keras ou .h5)
+*.keras
+*.h5
+*.checkpoint
+
+# Fichiers système et IDE
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
